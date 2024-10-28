@@ -17,6 +17,7 @@ Aplicación web que permite buscar y gestionar una colección de películas util
 - Guardado de películas en base de datos MySQL
 - Registro manual de películas
 - Visualización de películas guardadas
+- Eliminación de películas guardadas
 - Exportación de la colección a Excel
 - Diseño responsivo
 
@@ -30,11 +31,9 @@ Aplicación web que permite buscar y gestionar una colección de películas util
 ## 📊 Estructura de la Base de Datos
 
 ```sql
--- Crear la base de datos
 CREATE DATABASE IF NOT EXISTS films_database;
 USE films_database;
 
--- Crear la tabla de películas
 CREATE TABLE IF NOT EXISTS movies (
     id INT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(255) NOT NULL,
@@ -48,7 +47,6 @@ CREATE TABLE IF NOT EXISTS movies (
 ## 📁 Estructura de Archivos
 
 ```
-/
 ├── assets/
 │   ├── css/
 │   │   └── styles.css
@@ -77,12 +75,12 @@ CREATE TABLE IF NOT EXISTS movies (
    - Click en "Guardar" para añadir a la base de datos
    - Opción de agregar manualmente disponible
 
-3. **Borrar Películas**
-
-   - Click en el icono de la basura en la lista
-
-4. **Exportar Datos**
+3. **Exportar Datos**
    - Click en "Download" en la sección "Descargar Excel" para descargar la colección
+
+4. **Borrar Películas**
+
+   - Click en el icono del bote de basura que aparece en la tarjeta de la película
 
 ## ⚡ Consideraciones Técnicas
 
@@ -90,3 +88,7 @@ CREATE TABLE IF NOT EXISTS movies (
 - Queries SQL optimizadas
 - Código comentado para mejor comprensión
 - Diseño responsivo para todos los dispositivos
+
+## 👨‍💻 Autor
+
+Desarrollado por Simón Posada Acosta - [simon.150@hotmail.com]
