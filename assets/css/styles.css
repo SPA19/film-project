@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    line-height: 1.2;
+    margin: 0;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+    margin: 24px 0px;
+}
+
+input {
+    display: block;
+    padding: 6px 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    flex: 1;
+}
+
+input:hover {
+    border-color: #b3b3b3;
+}
+
+input:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 3.2px #007bff40;
+}
+
+button {
+    padding: 8px;
+    margin: 5px;
+}
+
+.name-project{
+    font-size: 36px;
+    margin: 32px 0px;
+    text-align: start;
+}
+
+.navbar {
+    background-color: #343a40;
+    padding: 16px;
+}
+
+.container-nav {
+    max-width: 1200px;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.navbar-brand:hover {
+    color: #e9ecef;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-horizontal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.movies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.movie-card {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.movie-card img {
+    max-width: 100%;
+    height: 302px;
+    border-radius: 5px;
+}
+
+.movie-card h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.created-date {
+    font-size: 0.8em;
+    color: #666;
+    margin-top: 5px;
+    border-top: 1px solid #eee;
+    padding-top: 5px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-result {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.search-result img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 3px;
+}
+
+.save-btn {
+    display: inline-block;
+    padding: 9px 24px;
+    margin: 0px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.save-btn:hover {
+    background-color: #0056b3;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 0px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.download-btn:hover {
+    background-color: #218838;
+}
+
+.delete-btn {
+    display: inline-block;
+    padding: 8px 12px;
+    font-size: 16px;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    align-self: end;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.alert {
+    position: relative;
+    padding: 15px 20px;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons-space{
+    margin-right: 6px;
+}
+
+.title-list {
+    padding: 10px 0px 20px 0px;
+    text-align: center;
+}
