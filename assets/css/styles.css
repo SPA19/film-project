@@ -122,8 +122,9 @@ button {
 
 .movie-card img {
     max-width: 100%;
-    height: 302px;
+    height: auto;
     border-radius: 5px;
+    object-fit: cover;
 }
 
 .movie-card h3 {
