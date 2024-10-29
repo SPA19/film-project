@@ -89,6 +89,12 @@ CREATE TABLE IF NOT EXISTS movies (
 - Código comentado para mejor comprensión
 - Diseño responsivo para todos los dispositivos
 
+## 🌐 Despliegue
+
+El proyecto está desplegado en un hosting gratuito proporcionado por InfinityFree. Puedes acceder a la aplicación en el siguiente enlace:
+
+- **URL del proyecto:** [simonp.infinityfreeapp.com](http://simonp.infinityfreeapp.com)
+
 ## 👨‍💻 Autor
 
 Desarrollado por Simón Posada Acosta - [simon.150@hotmail.com]
